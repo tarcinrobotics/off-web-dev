@@ -1,0 +1,82 @@
+.intro{
+    padding: 4rem 6rem 8rem;
+    display: flex;
+    gap: 30px;
+    
+}
+.icontent{
+    padding: 2rem;
+}
+.icontent h2,.icontent p{
+    text-align: justify;
+}
+.icontent p{
+    margin: 1rem auto;
+}
+.icontent .btns button{
+    padding: 10px 30px;
+    font-size: 1rem;
+    outline: none;
+    font-weight: 700;
+    border: 3px solid black;
+    background-color: transparent;
+    margin: 10px 10px 10px 1px;
+}
+.icontent .btns .product_btn{
+    background-color: #ecce10;
+    color: #000;
+}
+/* .btns button a:hover{
+    border-color: #fff;
+    color: #fff;
+    
+} */
+.btns button a{
+    color: #000;
+    text-decoration: none;
+}
+.btns button:hover {
+    cursor: pointer;
+    border-color: #fff;
+}
+.btns button:hover a{
+  color: #fff;
+}
+.iimg{
+    width: 2000px;
+}
+.iimg img{
+    width: 100%;
+    border-radius: 5px;
+}
+@media(max-width:1030px){
+    .icontent{
+        padding: 0;
+    }
+    .icontent p{
+       display: none;
+    }
+    
+}
+@media(max-width:1000px){
+    .intro{
+        flex-direction: column;
+        padding: 2rem 4rem;
+    }
+    .iimg{
+        width: 100%;
+    }
+    .icontent p{
+        display:block;
+    }
+}
+@media(max-width:600px){
+    .intro{
+        padding: 2rem ;
+    }
+}
+@media(max-width:400px){
+    .intro{
+        padding: 1.5rem ;
+    }
+}

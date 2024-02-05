@@ -1,0 +1,216 @@
+/* .code {
+    box-sizing: border-box;
+    padding: 2rem 6rem;
+}
+.code .content {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    color: #ecce10;
+}
+.sub_code{
+    display: flex;
+    justify-content: center;
+}
+  
+  .code h2 {
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+  }
+  
+  .code .subject {
+   font-size: 1rem;
+   
+   line-height: 2rem;
+   text-align: center;
+  }
+  .code .subject .bold{
+    font-weight: 900;
+    color: #ff004d;
+    padding: 10px;
+  }
+  .img {
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .img img {
+    width: 40%;
+  }
+  .code_btn{
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+  }
+  .code_btn a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #ff004d;
+    border-radius: 5px;
+    border: 3px solid transparent;
+  }
+  .code_btn a:hover{
+  color: #fff;
+  border: 3px solid #fff;
+  }
+  
+  @media(max-width:1000px) {
+    .code {
+      padding: 2rem 4rem;
+    }
+  
+    .code .content {
+      font-size: 2rem;
+  
+    }
+  
+    .code h2 {
+      font-size: 1.2rem;
+    }
+  
+    .code .subject {
+      font-size: 13px;
+      text-align: justify;
+    }
+  }
+  
+  @media(max-width:600px) {
+    .code .content {
+      font-size: 1.7rem;
+     }
+     .code {
+        padding: 2rem ;
+      }
+  }
+   */
+.learning{
+  background-color: #0b1215;
+  padding: 2rem 6rem;
+}
+.learning_plaform h1{
+  display: inline-block;
+  padding: 10px auto;
+}
+.learning_plaform hr{
+  margin: 10px 1px;
+  width: 300px;
+  color: darkseagreen;
+  
+}
+.learning_plaform .sprouted h1{
+  color: #ecce10;
+  margin: 10px auto;
+
+}
+.learning_plaform .code_asthram h1{
+ 
+  color: #ecce10;
+  margin: 10px auto;
+}
+.code_asthram{
+  width: 100%;
+  margin: 2rem auto;
+}
+.code_asthram h2{
+  margin-bottom: 10px;
+}
+.code_asthram p{
+  margin: 1.5rem auto;
+  font-size: 20px;
+  text-align: justify;
+}
+.code_asthram img{
+  width: 100%;
+}
+.code_asthram button:hover{
+  transform: translate(4px);
+  box-shadow: 0px 0px ;
+  transition: 0.5s;
+}
+.sprouted button:hover{
+  transform: translate(4px);
+  box-shadow: 0px 0px ;
+  transition: 0.5s;
+}
+.code_asthram button a{
+  text-decoration: none;
+  color: #000;
+}
+.sprouted button a{
+  text-decoration: none;
+  color: #000;
+}
+.code_asthram button{
+  background-color: #ecce10;
+  margin: 1rem auto;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: #000;
+  border: 3px solid #000;
+  box-shadow: 2px 2px #FFF;
+  transition: 0.5s;
+}
+.code_asthram .head{
+  width: 350px;
+  margin: 10px auto;
+}
+.sprouted button{
+  background-color: #ecce10;
+  margin: 1rem auto;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: #000;
+  border: 3px solid #000;
+  box-shadow: 2px 2px #FFF;
+  transition: 0.5s;
+
+}
+.sprouted .head{
+  width: 260px;
+  margin: 10px auto;
+}
+.code_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}.sprouted_img{
+  width: 100%;
+}
+.sprouted_img img{
+  width: 100%;
+}
+@media(max-width:1000px){
+  .learning{
+      padding: 2rem 4rem;
+  }
+}
+@media(max-width:600px){
+  .learning{
+      padding: 2rem ;
+  }
+}
+@media(max-width:400px){
+  .code_asthram .head{
+    width: 250px;
+    margin: 10px auto;
+  }
+  .sprouted .head{
+    width: 260px;
+    margin: 10px auto;
+  }
+  .learning{
+      padding: 1.5rem ;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Intro.css"
-import tarcin from "../images/TarcinGif.gif"
+import tarcin from "../images/tarcinGif.gif"
 import { Link } from 'react-router-dom';
 export default function Intro() {
   return (
@@ -13,7 +13,7 @@ export default function Intro() {
 amazing with Tarcin.</p>
      <div className="btns">
       <button className='product_btn'><a href='https://www.youtube.com/watch?v=fYK8m80OE_4'>WATCH THE VIDEO</a></button>
-      <button className='contact_btn'> <Link to="contact-us" >CONTACT</Link></button>
+      <button className='contact_btn' style={{borderColor: "#fff"}} > <Link to="contact-us" style={{color: "#fff"}} >CONTACT</Link></button>
      </div>
      </div>
       <div className='iimg' data-aos="fade-up">

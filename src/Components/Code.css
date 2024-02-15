@@ -92,31 +92,34 @@
   }
    */
 .learning{
-  background-color: #0b1215;
+  background-color: #f5f9fd;
   padding: 2rem 6rem;
 }
 .learning_plaform h1{
   display: inline-block;
   padding: 10px auto;
+  
 }
 .learning_plaform hr{
   margin: 10px 1px;
   width: 300px;
-  color: darkseagreen;
+  color: #002aff;
   
 }
 .learning_plaform .sprouted h1{
-  color: #ecce10;
+  color: #002aff;
   margin: 10px auto;
 
 }
 .learning_plaform .code_asthram h1{
  
-  color: #ecce10;
+  color: #002aff;
   margin: 10px auto;
 }
-.code_asthram{
+.code_asthram,.sprouted{
   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
   margin: 2rem auto;
 }
 .code_asthram h2{
@@ -127,65 +130,50 @@
   font-size: 20px;
   text-align: justify;
 }
+.code_asthram_img,.sprouted_img{
+  padding: 2rem;
+}
 .code_asthram img{
+  width: 90%;
+}
+.code_btn button:hover{
+  transform: translate(4px);
+  box-shadow: 0px 0px ;
+  transition: 0.5s;
+}
+
+.code_btn button a{
+  text-decoration: none;
+  color: #fff;
+}
+.imgg{
   width: 100%;
+  position: relative;
 }
-.code_asthram button:hover{
-  transform: translate(4px);
-  box-shadow: 0px 0px ;
-  transition: 0.5s;
+.imgg img{
+  
+  width: 10%;
 }
-.sprouted button:hover{
-  transform: translate(4px);
-  box-shadow: 0px 0px ;
-  transition: 0.5s;
-}
-.code_asthram button a{
-  text-decoration: none;
-  color: #000;
-}
-.sprouted button a{
-  text-decoration: none;
-  color: #000;
-}
-.code_asthram button{
-  background-color: #ecce10;
+.code_btn button{
+  background-color: #002aff;
   margin: 1rem auto;
   font-weight: 600;
   font-size: 1rem;
   border-radius: 10px;
   padding: 10px 30px;
-  color: #000;
+  color: #fff;
   border: 3px solid #000;
-  box-shadow: 2px 2px #FFF;
-  transition: 0.5s;
-}
-.code_asthram .head{
-  width: 350px;
-  margin: 10px auto;
-}
-.sprouted button{
-  background-color: #ecce10;
-  margin: 1rem auto;
-  font-weight: 600;
-  font-size: 1rem;
-  border-radius: 10px;
-  padding: 10px 30px;
-  color: #000;
-  border: 3px solid #000;
-  box-shadow: 2px 2px #FFF;
+  box-shadow: 2px 2px #000;
   transition: 0.5s;
 
 }
-.sprouted .head{
-  width: 260px;
-  margin: 10px auto;
-}
+
 .code_btn {
   display: flex;
   justify-content: center;
   align-items: center;
-}.sprouted_img{
+}
+.sprouted_img{
   width: 100%;
 }
 .sprouted_img img{
@@ -194,6 +182,12 @@
 @media(max-width:1000px){
   .learning{
       padding: 2rem 4rem;
+  }
+  .code_asthram{
+    flex-direction: column;
+  }
+  .sprouted{
+    flex-direction: column-reverse;
   }
 }
 @media(max-width:600px){

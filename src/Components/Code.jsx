@@ -5,6 +5,9 @@ import "./Code.css"
 import { Link } from "react-router-dom";
 import Code1 from "../images/Code_Asthram_img.png";
 import head from "../images/CODE_ASTHRAM_head.png";
+import c from "../images/c.png";
+import python from "../images/python.png";
+import machine from "../images/machine.png";
 import Sprouted from "../images/Sprouted.png";
 import Sprouted1 from "../images/Sprouted_Blue_copy.png";
 
@@ -29,31 +32,42 @@ export default function Code() {
         // </div>
         <div className="learning">
             <div className="learning_plaform">
-            <h1 style={{color:"#f6f5f7"}}>Learning Platform</h1>
+            <h1 style={{color:"#002aff"}}>Learning Platform</h1>
             <hr/>
            
             <div className="code_asthram">
-            <img src={head} alt="IMAGE" className="head" />
+            {/* <img src={head} alt="IMAGE" className="head" /> */}
+            <div className="code_asthram_content">
+            <h1 >CODE ASTHRAM</h1>
             <h2>Welcome to Code Asthram - Your Path to Coding Excellence!</h2>
             <p>Our software solution, "Code-Asthram," aims to make coding accessible to all age groups, including students.
 This assistive technology has the most potential to address the needs of students receiving special education out of all those used in the field. </p>
-         
-            <img src={Code1} alt="Code_Asthram Image" />
-            <div className="code_btn"><button> <a href="https://tarcinacademy.in/" >Let's Begin</a></button>
-            </div>  
+             </div>
+             <div className="code_asthram_img">
+<img src={Code1} alt="Code_Asthram Image" /></div>
+            
+            </div>  <div className="code_btn"><button> <a href="https://tarcinacademy.in/" >Let's Begin</a></button>
     
           
             </div>
             <div className="sprouted">
-            <img src={Sprouted} alt="IMAGE" className="head" />
-            <h2>Grow from the Seed and become The Shade to a larger audience. You'll be sprouted and uplifted with our platform.</h2>
             <div className="sprouted_img">
 
             <img src={Sprouted1} alt="Sprouted platform Image" />
             </div>
+            <div className="sprouted_content">
+                <h1>SPROUTED</h1>
+            {/* <img src={Sprouted} alt="IMAGE" className="head" /> */}
+            <h2>Grow from the Seed and become The Shade to a larger audience. You'll be sprouted and uplifted with our platform.</h2></div>
+            
+            </div>
+            {/* <div className="imgg">
+                <img src={c}/>
+                <img src={python}/>
+                <img src={machine}/>
+            </div> */}
             <div className="code_btn"><button> <a href="#" >Coming Soon</a></button>
             </div>  
-            </div>
          
             </div>
        

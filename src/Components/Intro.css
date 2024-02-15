@@ -18,13 +18,13 @@
     font-size: 1rem;
     outline: none;
     font-weight: 700;
-    border: 3px solid black;
-    background-color: transparent;
+    border: 3px solid transparent;
+    background-color: black;
     margin: 10px 10px 10px 1px;
 }
 .icontent .btns .product_btn{
-    background-color: #ecce10;
-    color: #000;
+    background-color: #005aff;
+    color: #fff;
 }
 /* .btns button a:hover{
     border-color: #fff;
@@ -32,16 +32,19 @@
     
 } */
 .btns button a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
+}
+.contact_btn  a{
+    cursor: pointer;
+    color: #000;
+    border-color: #000;
 }
 .btns button:hover {
     cursor: pointer;
-    border-color: #fff;
+    border-color: #000;
 }
-.btns button:hover a{
-  color: #fff;
-}
+
 .iimg{
     width: 2000px;
 }

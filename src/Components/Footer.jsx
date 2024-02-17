@@ -31,8 +31,8 @@ export default function Footer() {
         </div>
         <div className='cont cont3'>
           <h3>Contact Details</h3>
-          <div ><a href="tel:+919884675586" className='flex' style={{ color: "#fff", textDecoration: "none" }}><FaPhoneAlt />+91  9884675586</a> </div>
-          <div ><a href="mailto:contact@tarcinrobotic.in" className='flex' style={{ color: "#fff", textDecoration: "none" }}><IoMail />   contact@tarcinrobotic.in</a> </div>
+          <div ><a href="tel:+919884675586" className='flex' style={{ color: "#000", textDecoration: "none" }}><FaPhoneAlt />+91  9884675586</a> </div>
+          <div ><a href="mailto:contact@tarcinrobotic.in" className='flex' style={{ color: "#000", textDecoration: "none" }}><IoMail />   contact@tarcinrobotic.in</a> </div>
           
         </div>
       </div>

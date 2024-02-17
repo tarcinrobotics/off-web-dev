@@ -8,7 +8,7 @@ export default function Land() {
   return (
     <div  className='Land'>
       <div className='landcontant'>
-        <h2 data-aos="zoom-in" style={{color:"#fff"}}>Our Professional Courses</h2>
+        <h2 data-aos="zoom-in" style={{color:"#000"}}>Our Professional Courses</h2>
         <h4 data-aos="fade-up"
           >Replenish man have thing gathering lights
 

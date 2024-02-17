@@ -8,8 +8,8 @@ import "./About.css"
 
 export default function Getin() {
   return (
-    <div className='get' style={{backgroundColor:"#002244",color:"#fff"}}>
-      <h1>Get In Touch with US</h1>
+    <div className='get'>
+      <h1 style={{color:"#002aff"}}>Get In Touch with US</h1>
   
       <div className="getcont">
         <div className="gcont">
@@ -20,7 +20,8 @@ export default function Getin() {
           <h6>Maduari-625020</h6>
         </div>
         <div className="gcont">
-          <div className='gbg'> <FaPhoneSquareAlt size={40} color='#000' /></div>
+        <a href="tel:+91 98846 75586" style={{color:"black"}}> <div className='gbg'> <FaPhoneSquareAlt size={40} color='#000' /></div></a>
+          
           <h4>+91 98846 75586</h4>
         </div>
         <div className="gcont">

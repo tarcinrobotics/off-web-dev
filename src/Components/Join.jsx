@@ -11,7 +11,7 @@ export default function Join() {
             <h1>Be a part of Tarcin family through Employability, User-Paid Internships, Paid Internships and other training sessions.</h1>
         </div>
         <div className="join_btn">
-        <button> <Link to="hiring" style={{ color: "#000", textDecoration: "none" }}>Join our Team</Link></button>
+        <button> <Link to="hiring" style={{ color: "#fff", textDecoration: "none" }}>Join our Team</Link></button>
         </div>
       
        </div>

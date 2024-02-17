@@ -9,6 +9,8 @@ import Intro from '../Components/Intro';
 import Inspartners from '../Components/About/Inspartners';
 import Join from '../Components/Join';
 import About_course from '../Components/About_course';
+import Committe from '../Components/Committe';
+import Videos from '../Components/Videos';
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
       {/* <Gif/> */}
       <Intro/>
       <About_course/>
+      <Committe/>
       <div id='ins' style={{marginTop:"3rem"}}>
       <Inspartners/>
       </div>
@@ -25,6 +28,7 @@ export default function Home() {
       {/* <Print/>
       <Offer/>
       <Courses/> */}
+      <Videos/>
       <Join/>
     </div>
   )

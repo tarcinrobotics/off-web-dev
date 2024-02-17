@@ -1,0 +1,44 @@
+.Commitment{
+    padding: 4rem 8rem 6.5rem;
+}
+.Commitment h1{
+    color: #002aff;
+    text-align: center;
+    margin: 1rem auto;
+}
+.lists{
+    display: flex;
+    gap: 20px;
+}
+.list{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.list p{
+    text-align: justify;
+}
+.list h4{
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 20px;
+}
+@media(max-width:1000px){
+    .Commitment{
+        padding: 2rem 4rem;
+    }
+    .lists{
+        flex-direction: column;
+    }
+}
+@media(max-width:600px){
+    .Commitment{
+        padding: 2rem ;
+    }
+}
+@media(max-width:400px){
+    .Commitment{
+        padding: 1.5rem ;
+    }
+}

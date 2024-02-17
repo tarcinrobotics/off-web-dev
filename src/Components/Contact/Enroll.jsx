@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useState}from 'react'
 import { useParams } from 'react-router-dom';
 import "/src/index.css";
 import data from "./coursesdata";
@@ -27,7 +27,9 @@ export default function Enroll() {
       );
   },[])
   let learn = display.learn.map(prev=>{
-    return < div key = { prev } className='learnnn'> <FcOk /> <li >{prev}</li></div>
+    return < div  key = { prev.name} className='learnnn'> <FcOk /> 
+    <li >{prev.name}</li>
+    </div>
   })
   return (
     

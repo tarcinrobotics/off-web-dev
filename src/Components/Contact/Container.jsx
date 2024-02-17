@@ -6,7 +6,7 @@ import app from "/src/images/APP.jpg";
 import cloud1 from "/src/images/Cloud Computing.jpg";
 import code from "/src/images/codecourses.jpg";
 import pcb from "/src/images/PCB.png";
-import robot from "/src/images/Robotics.jpg"
+import robot from "/src/images/Robotics1.jpg"
 import "/src/index.css";
 
 export default function Container() {
@@ -60,7 +60,7 @@ export default function Container() {
         data-aos-easing="ease-in-sine">
         <Link to="python_Advanced">
           <img src={code} />
-          <h1>PYTHON ADVANCED</h1>
+          <h1>PYTHON</h1>
           <div className='btncon'>  <button><TiArrowRightThick size={30} /></button></div>
         </Link>
       </div>

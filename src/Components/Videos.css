@@ -1,0 +1,77 @@
+.utube{
+  padding:0rem 2rem 2rem 2rem;
+}
+.utube h1,.utube h6{
+  text-align: center;
+}
+.utube h1{
+  font-size: 2.5rem;
+  color: #002aff;
+  
+}
+.utube h6{
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
+.utube-slider {
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.utubeslide-track {
+  display: flex;
+  width: calc(150px * 22);
+  animation: scroll 20s linear infinite;
+}
+
+.slide {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.utubeslide-track:hover {
+  animation-play-state: paused;
+}
+
+.slide  {
+  width: 100%;
+  transition: 0.5s;
+}
+.slide :hover{
+  transform: translateZ(5px);
+}
+@keyframes scroll {
+  0% {
+  transform: translatex(0);
+  }
+  
+  100% {
+  transform: translateX(calc(-100px * 22));
+  }
+}
+@media(max-width:1000px) {
+
+  .utube h1 {
+      font-size: 2rem;
+  }
+}
+@media(max-width:600px){
+  .utube h6{
+  font-size: 1rem;
+  }.utube h1{
+      font-size: 1.5rem;
+  }
+      .utube-slider {
+          height: 150px;
+      }
+}

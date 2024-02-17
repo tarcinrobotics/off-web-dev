@@ -8,7 +8,10 @@ export default function Join() {
        <div className='join_content'>
         <div className="join_banner">
         {/* <button>Join our Team</button> */}
-            <h1>Be a part of Tarcin family through Employability, User-Paid Internships, Paid Internships and other training sessions.</h1>
+            <h3> Are you  a student (or) a professional seeking upskilling (or) an organization
+looking to stay at the forefront of innovation, TARCIN ROBOTIC LLP is your
+partner on the journey to success. Explore our programs, engage with our
+community, and embrace the future with confidence.</h3>
         </div>
         <div className="join_btn">
         <button> <Link to="hiring" style={{ color: "#fff", textDecoration: "none" }}>Join our Team</Link></button>

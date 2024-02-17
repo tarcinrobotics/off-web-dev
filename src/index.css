@@ -346,6 +346,23 @@ p {
   .imagee img {
     width: 500px;
   }
+  .navbars {
+    display: none;
+  }
+  .nav {
+      padding: 10px 1px;
+      gap: 50px;
+      justify-content: space-around
+    }
+  .nav .logo img{
+    width: 200px;
+  }
+
+  .navbtn {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
 
   .h1 {
     margin-bottom: 1.5rem;
@@ -415,23 +432,7 @@ p {
   }
  
 
-  .navbars {
-    display: none;
-  }
-    .nav {
-      padding: 10px 1px;
-      gap: 50px;
-      justify-content: space-around
-    }
-  .nav .logo img{
-    width: 200px;
-  }
-
-  .navbtn {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
+ 
 }
 
 @-webkit-keyframes scale-up-center {
@@ -462,28 +463,24 @@ p {
 .Land {
   box-sizing: border-box;
   display: flex;
-  padding: 3rem 6rem 1rem;
+  padding: 3rem 6rem;
 
 }
 
 .landcontant {
   width: 100%;
-  padding: 2.6rem;
+  padding: 1px 2.6rem;
 }
 
 .landcontant h2 {
   font-size: 2.8rem;
-  font-style: oblique;
-  font-family: sans-serif;
   margin: 1rem auto;
   word-spacing: 0.3rem;
-  color: #1f1147;
   font-weight: bolder;
 
 }
 
 .landcontant h4 {
-  font-style: oblique;
   font-size: 1.5rem;
   margin: 1rem auto;
   padding: 0.2rem;
@@ -493,11 +490,11 @@ p {
 
 .landim {
   width: 100%;
-  padding: 0rem 4rem 0rem 10rem;
 }
 
 .landim img {
-  width: 400px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 @media(max-width:1070px) {

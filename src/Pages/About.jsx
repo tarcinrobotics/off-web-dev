@@ -5,6 +5,7 @@ import Indpartners from '../Components/About/Indpartners'
 import Getin from '../Components/About/Getin'
 import Inspartners from '../Components/About/Inspartners'
 
+
 export default function About() {
   return (
     <div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from "/src/images/About.jpeg";
+import pic from "/src/images/About1.png";
 import "./About.css"
 
 export default function Aland() {

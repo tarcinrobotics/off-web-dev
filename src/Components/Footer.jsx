@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { FaTwitter, FaInstagramSquare, FaLinkedin, FaFacebook, FaPhoneAlt } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io5";
-
+import footer from "../images/Footer.png"
 import { IoMail } from "react-icons/io5";
 
 export default function Footer() {
@@ -14,8 +14,8 @@ export default function Footer() {
       <div className='footer'>
 
         <div className='cont cont1'>
-          <h1 style={{fontFamily:"nevan rus"}}>TARCIN ROBOTIC LLP</h1>
-          <h4 style={{fontFamily:"nevan rus"}}>Unlock the Tech Unleash the World <br /><br />Follow us</h4>
+          <img src={footer} width="350px" style={{marginTop:"1rem"}} /> 
+          <h4 >Follow us</h4>
           <a style={{ textDecoration: 'none' }}> <FaSquareXTwitter  color='#010101' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
           <a href='https://www.instagram.com/tarcin_robotic.in?igsh=MW9mZGQydmUyeHQ1dA==' style={{ textDecoration: 'none' }}> <FaInstagramSquare color='#fb0364' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
           <a href='https://www.linkedin.com/company/tarcin-robotic-llp/' style={{ textDecoration: 'none' }}> <FaLinkedin color='#3273af' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>

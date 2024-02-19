@@ -1,19 +1,24 @@
-.utube{
-  padding:0rem 2rem 2rem 2rem;
+.utube {
+  padding: 0rem 2rem 2rem 2rem;
 }
-.utube h1,.utube h6{
+
+.utube h1,
+.utube h6 {
   text-align: center;
 }
-.utube h1{
+
+.utube h1 {
   font-size: 2.5rem;
   color: #002aff;
-  
+
 }
-.utube h6{
+
+.utube h6 {
   font-size: 1.5rem;
   font-weight: 400;
 
 }
+
 .utube-slider {
   height: 250px;
   margin: auto;
@@ -31,8 +36,8 @@
 }
 
 .slide {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 350px;
   display: flex;
   align-items: center;
   padding: 15px;
@@ -43,35 +48,76 @@
   animation-play-state: paused;
 }
 
-.slide  {
+.slide {
   width: 100%;
   transition: 0.5s;
 }
-.slide :hover{
+
+.slide :hover {
   transform: translateZ(5px);
 }
+
 @keyframes scroll {
   0% {
-  transform: translatex(0);
+    transform: translatex(0);
   }
-  
+
   100% {
-  transform: translateX(calc(-100px * 22));
+    transform: translateX(calc(-100px * 22));
   }
 }
+
 @media(max-width:1000px) {
 
   .utube h1 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 }
-@media(max-width:600px){
-  .utube h6{
-  font-size: 1rem;
-  }.utube h1{
-      font-size: 1.5rem;
+
+@media(max-width:600px) {
+  .utube h6 {
+    font-size: 1rem;
   }
-      .utube-slider {
-          height: 150px;
-      }
+
+  .utube h1 {
+    font-size: 1.5rem;
+  }
+
+  .utube-slider {
+    height: 450px;
+  }
+
+  .slide {
+    height: 200px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+  }
+}
+@media(max-width:450px) {
+  .utube h6 {
+    font-size: 1rem;
+  }
+  .utube {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  .utube h1 {
+    font-size: 1.5rem;
+  }
+
+  .utube-slider {
+    height: 250px;
+  }
+
+  .slide {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+  }
 }

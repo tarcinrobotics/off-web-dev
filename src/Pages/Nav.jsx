@@ -16,7 +16,7 @@ export default function Nav() {
          <li><NavLink className={({ isActive }) => isActive ? "act" : null} to="courses">Courses</NavLink></li>
          <li> <NavLink className={({ isActive }) => isActive ? "act" : null} to="about">About Us</NavLink></li>
          <li> <NavLink className={({ isActive }) => isActive ? "act" : null} to="products">Our Products</NavLink></li>
-         <li> <NavLink className={({ isActive }) => isActive ? "act" : null} to="students_corner">Students Corner</NavLink></li>
+         <li> <NavLink className={({ isActive }) => isActive ? "act" : null} to="students_hub">Students Hub</NavLink></li>
         </ul>
         </div>
         <div className='logo'><img src={logo}/></div>
@@ -31,7 +31,7 @@ export default function Nav() {
             <li><NavLink onClick={() => setToggle(prev => !prev)} className={({ isActive }) => isActive ? "act" : null} to="courses">Courses</NavLink></li>
             <li> <NavLink onClick={() => setToggle(prev => !prev)} className={({ isActive }) => isActive ? "act" : null} to="about">About Us</NavLink></li>
             <li> <NavLink onClick={() => setToggle(prev => !prev)} className={({ isActive }) => isActive ? "act" : null} to="products">Our Products</NavLink></li>
-            <li> <NavLink onClick={() => setToggle(prev => !prev)} className={({ isActive }) => isActive ? "act" : null} to="students_corner">Students Corner</NavLink></li>
+            <li> <NavLink onClick={() => setToggle(prev => !prev)} className={({ isActive }) => isActive ? "act" : null} to="students_hub">Students Hub</NavLink></li>
             </ul>
           }
         </div>

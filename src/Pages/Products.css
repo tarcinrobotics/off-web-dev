@@ -1,0 +1,21 @@
+.productss{
+    padding: 4rem 6rem;
+}
+.productss h1{
+    color: #002aff;
+}
+@media(max-width:1000px){
+    .productss{
+        padding: 4rem;
+    }
+}
+@media(max-width:600px){
+    .productss{
+        padding: 2rem;
+    }
+}
+@media(max-width:400px){
+    .productss{
+        padding: 1.5rem;
+    }
+}

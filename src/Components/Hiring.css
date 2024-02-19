@@ -1,0 +1,306 @@
+/* .recruit .head{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.recruit .head img{
+    width: 100px;
+}
+.recruit {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.recruit form{
+    display: flex;
+    flex-direction: column;
+}
+.recruit form .inputs{
+    width: 100%;
+    display: flex;
+  justify-content: flex-end;
+}
+.recruit form .inputs .left{
+    width: 100%;
+}
+
+
+  form .contbtn button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #25292e;
+    color: #fff;
+    border-radius: 10px;
+    width: 200px;
+  
+  }
+  
+  form .inpc {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px 1px;
+  }
+  
+  form .inp label {
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: 700;
+  }
+  
+  form .inpc input {
+ 
+    padding: 10px;
+  }
+  .select select{
+  
+    padding: 10px;
+  }
+  .select select option{
+    padding: 10px;
+  }
+  @media(max-width:1300px) {
+    .contact .contimg img {
+      width: 400px;
+    }
+  }
+  
+  @media(max-width:1000px) {
+    .contact {
+      padding: 2rem 4rem;
+      flex-direction: column;
+    }
+  
+    .contact .contimg img {
+      width: 50%;
+    }
+  
+    form {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    form .inp {
+      flex-direction: column;
+      padding: 20px;
+      gap: 10px;
+      align-items: flex-start;
+    }
+  
+    form .inp input {
+      width: 100%;
+    }
+  }
+  
+  @media(max-width:600px) {
+    .contact {
+      padding: 2rem;
+      flex-direction: column;
+    }
+  }
+  
+  @media(max-width:400px) {
+    .contact {
+      padding: 1.5rem;
+    }
+  
+    .inp {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  
+   */
+.recruit .head {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recruit .head img {
+    width: 100px;
+}
+
+.recruit {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.recruit form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.recruit form .inputs {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.recruit form .inputs .left {
+    width: 48%; 
+}
+
+.recruit form .inputs .right {
+    width: 48%; 
+}
+
+.recruit form .inpc {
+    margin-bottom: 15px;
+}
+
+.recruit form .select select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.recruit form .select select option {
+    padding: 10px;
+}
+
+.recruit form .inpc input,
+.recruit form .select select,
+.recruit form .inpc textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.recruit form .inp label {
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+
+.recruit form .inpc input[type="file"] {
+    width: auto;
+}
+
+form .contbtn button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #25292e;
+    color: #fff;
+    border-radius: 10px;
+    width: 200px;
+}
+.inpf {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    width: fit-content;
+  }
+  
+  .inpf label {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #010101;
+    padding: 10px 30px;
+    opacity: 0.9;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"] {
+    position: absolute;
+    left: -9999px;
+  }
+
+  
+  input[type="file"]:focus + span {
+    outline: 1px solid #007bff;
+  }
+
+  .recruit form .text {
+    width: 60%;
+    padding:0px 2rem 2rem 2rem;
+  }
+  .recruit form .text textarea{
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+  }
+  .button button{
+    background-color: #fff;
+    padding: 10px 90px;
+    border: 3px solid #002aff;
+    color: #002aff;
+  
+    font-size: 18px;
+    font-weight: 700;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.5s;
+  }
+  .button button:hover{
+    background-color: #002aff;
+    color: #fff;
+  }
+  
+@media(max-width:900px){
+    .recruit form .inputs {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .recruit form .text{
+      width: 77%;
+    }
+    .recruit form .inputs .left {
+        width: 75%; 
+    }
+    
+    .recruit form .inputs .right {
+        width: 75%; 
+    }
+}
+@media(max-width:500px){
+    .recruit form .inputs {
+        padding: 0.1rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .recruit form .text{
+      padding: 2rem 0 0 0;
+      width: 100%;
+    }
+    .recruit form .inputs .left {
+        width: 100%; 
+    }
+    
+    .recruit form .inputs .right {
+        width: 100%; 
+    }
+    .recruit .head {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .recruit .head h1{
+        font-size: 24px;
+    }
+    .recruit .head img {
+        width: 50px;
+    }
+}

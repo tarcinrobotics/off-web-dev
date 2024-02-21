@@ -1,0 +1,18 @@
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    cursor: grab;
+}
+.dropdown .dropdowns li{
+    padding: 10px auto;
+    list-style-type: disc;
+}
+.dropdown .dropdowns{
+    padding: 0.5rem;
+}
+.dropdow{
+    margin: 10px auto;
+}
+.dropdow ul{
+    padding: 1px 1rem;
+}

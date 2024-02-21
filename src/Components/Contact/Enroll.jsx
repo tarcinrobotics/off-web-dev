@@ -6,10 +6,7 @@ import { BsClockHistory } from "react-icons/bs";
 import { GiNotebook } from "react-icons/gi";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { MdOutlineAssignment } from "react-icons/md";
-import { FcOk } from "react-icons/fc";
-
-
-
+import Learn from './Learn';
 export default function Enroll() {
   let [display,setDisplay]=React.useState({
     learn:[]
@@ -26,11 +23,15 @@ export default function Enroll() {
      }
       );
   },[])
-  let learn = display.learn.map(prev=>{
-    return < div  key = { prev.name} className='learnnn'> <FcOk /> 
-    <li >{prev.name}</li>
-    </div>
-  })
+let learnn = display.learn.map(prev => {
+    return prev.topics
+          ? <Learn list={prev.name} topics={prev.topics} key={prev.name} />
+          : <Learn list={prev.name} key={prev.name} />;
+  });
+  
+    
+
+
   return (
     
     <div className="enroll">
@@ -67,13 +68,13 @@ export default function Enroll() {
       <hr/>
       
       <div className="coursecontent">
-        <h2>Couse Overview</h2>
+        <h2>Course Overview</h2>
         <p>{display.overview}</p>
       </div>
       <hr/>
       <div className="ll_learn">
         <h1>What you'll learn</h1>
-          {learn}
+          {learnn}
       </div>
     </div>
   )

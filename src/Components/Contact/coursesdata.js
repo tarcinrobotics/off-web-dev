@@ -9,6 +9,97 @@ export default[
         learn:[
             {
               name:"Front-End Development",
+              topics:[
+                {
+                  head:"Introduction to Web Development",
+                  lessons:[
+                    {
+                      lists:"Introduction to web development, understanding the role of HTML, CSS, and JavaScript in web  development."
+                    },
+                    {
+                      lists:"Setting up a development environment (code editor, web browser)."
+                    },
+                    {
+                      lists:"Basic HTML structure."
+                    },
+                    {
+                      lists:"Creating html page."
+                    },
+                  ]
+                },
+                {
+                  head:"HTML Essentials",
+                  lessons:[
+                    {
+                      lists:"HTML Elements, Headings, Paragraphs, Lists (Ordered and Unordered)."
+                    },
+                    {
+                      lists:"Links and Anchor tags, Images, Forms and Input Elements."
+                    },
+                    {
+                      lists:"Semantic HTML,HTML entities, and special characters."
+                    },
+                  ]
+                },
+                {
+                  head:"CSS Fundamentals",
+                  lessons:[
+                    {
+                      lists:"Introduction to CSS, Inline, Internal, and External styles."
+                    },
+                    {
+                      lists:"CSS Selectors, Classes, IDs, and the Box Model."
+                    },
+                    {
+                      lists:"Styling text, colors, backgrounds, and margins/padding."
+                    },
+                  ]
+                },
+              
+                {
+                  head:"Layout with CSS",
+                  lessons:[
+                    {
+                      lists:"CSS Positioning &amp; Display property."
+                    },
+                    {
+                      lists:"Floats and Clearing, Flexbox basics."
+                    },
+                    {
+                      lists:"Introduction to CSS Grid."
+                    },
+                  ]
+                },
+                {
+                  head:"Responsive Web Design",
+                  lessons:[
+                    {
+                      lists:"Introduction to responsive design, Media queries."
+                    },
+                    {
+                      lists:"Building a responsive navigation menu."
+                    },
+                    {
+                      lists:"Responsive images and videos."
+                    },
+                  ]
+                },
+                {
+                  head:"JavaScript Basics",
+                  lessons:[
+                    {
+                      lists:"Introduction to JavaScript, Variables, Data Types, and Operators."
+                    },
+                    {
+                      lists:"Control Flow (if statements, loops), Functions, and Scope."
+                    },
+                    {
+                      lists:"Objects, Arrays, and working with the Document Object Model (DOM)."
+                    },
+                  ]
+                },
+              
+              ]
             
             },
             {
@@ -27,10 +118,45 @@ export default[
               name:"DevOps"
             },
             {
-              name:"Front-End Build Tools"
+              name:"Front-End Build Tools",
+              topics:[
+                {
+                  head:"Advanced CSS and JavaScript Topics",
+                  lessons:[
+                    {
+                      lists:"CSS Transitions and Animations."
+                    },
+                    {
+                      lists:"Advanced JavaScript concepts (Closures, Prototypes, ES6+ features)."
+                    },
+                    {
+                      lists:"Introduction to JavaScript frameworks like React, Angular, or Vue (choose one)."
+                    },
+                    {
+                      lists:"Creating html page."
+                    },
+                  ]
+                },
+              ]
             },
             {
-              name:"Performance Optimization"
+              name:"Performance Optimization",
+              topics:[
+                {
+                  head:"HTML Essentials",
+                  lessons:[
+                    {
+                      lists:"HTML Elements, Headings, Paragraphs, Lists (Ordered and Unordered)."
+                    },
+                    {
+                      lists:"Links and Anchor tags, Images, Forms and Input Elements."
+                    },
+                    {
+                      lists:"Semantic HTML,HTML entities, and special characters."
+                    },
+                  ]
+                },
+              ]
             },
             {
               name:"Full-Stack Frameworks"
@@ -174,16 +300,83 @@ export default[
               name:"Database Connectivity"
             },
             {
-              name:"Web Development with Python"
+              name:"Web Development with Python",
+              topics:[
+                {
+                  head:"Introduction to Python:",
+                  lessons:[
+                    {
+                      lists:"Introduction to Python."
+                    },
+                    {
+                      lists:"Installation, and setting up the development environment (e.g., Anaconda, Jupyter Notebook)."
+                    },
+                    {
+                      lists:"Basic Python syntax, variables, data types (integers, floats, strings), and basic input/output."
+                    },
+                    
+                  ]
+                },
+                {
+                  head:"Control Structures and Functions:",
+                  lessons:[
+                    {
+                      lists:"Conditional statements (if, elif, else) and Boolean logic."
+                    },
+                    {
+                      lists:"Loops (for and while), range, and iterators."
+                    },
+                    {
+                      lists:"Functions, defining functions, parameters, and return statements."
+                    },
+                    
+                  ]
+                },
+
+              ]
             },
             {
               name:"Testing and Debugging"
             },
             {
-              name:"Pythong Packaging and Distribution"
+              name:"Python Packaging and Distribution",
+              topics:[
+                {
+                  head:"Modules and Libraries",
+                  lessons:[
+                    {
+                      lists:"Importing modules and libraries."
+                    },
+                    {
+                      lists:"Working with standard libraries (e.g., math, random, datetime)."
+                    },
+                    {
+                      lists:"Introduction to third-party libraries and pip."
+                    },
+                    
+                  ]
+                },
+              ]
             },
             {
-              name:"Advanced Topics in Data science"
+              name:"Advanced Topics in Data science",
+              topics:[
+                {
+                  head:"Working with Data:",
+                  lessons:[
+                    {
+                      lists:"Data cleaning and preprocessing with Pandas."
+                    },
+                    {
+                      lists:"Data visualization with Matplotlib and Seaborn."
+                    },
+                    {
+                      lists:"Introduction to data analysis and statistics."
+                    },
+                    
+                  ]
+                },
+              ]
             },
             {
               name:"Web Scrapping and Automation"
@@ -198,18 +391,77 @@ export default[
               name:"Security In Python"
             },
             {
-              name:"Advance Topics in Python Libraries"
+              name:"Advance Topics in Python Libraries",
+              topics:[
+                {
+                head:"Introduction to NumPy and Pandas",
+                lessons:[
+                  {
+                    lists:"NumPy (arrays, indexing, operations)."
+                  },
+                  {
+                    lists:"Introduction to Pandas (Series, DataFrames, basic data exploration)."
+                  },
+                 
+                  
+                ]
+              },
+            ]
             },
             {
-                name:"Regular Expressions"
+              name:"Regular Expressions"
 
             },
             {
-                name:"Data Structures and Algorithms"
-
-            },
+                name:"Data Structures and Algorithms",
+                topics:[
+                  {
+                    head:"Data Structures:",
+                    lessons:[
+                      {
+                        lists:"Lists, indexing, slicing, and common list methods."
+                      },
+                      {
+                        lists:"Tuples, sets, and dictionaries."
+                      },
+                      {
+                        lists:"List comprehensions, working with data structures."
+                      },
+                      
+                    ]
+                  },
+                  {
+                    head:"Intermediate Python:",
+                    lessons:[
+                      {
+                        lists:"List manipulation (sorting, filtering, mapping)."
+                      },
+                      {
+                        lists:"Working with strings (string manipulation, regular expressions)."
+                      },
+                      {
+                        lists:"Advanced data structures (collections module, namedtuples)."
+                      },
+                      
+                    ]
+                  },
+                ]
+              },
             {
-                name:"File Handling and Serialization"
+              name:"File Handling and Serialization",
+                topics:[
+                  {
+                    head:"File Handling and Error Handling",
+                    lessons:[
+                      {
+                        lists:"Reading and writing files."
+                      },
+                      {
+                        lists:"Exception handling (try, except, finally), handling common exceptions."
+                      },   
+                    ]
+                  },
+                ]
 
             },
             {
@@ -225,11 +477,41 @@ export default[
 
             },
             {
-                name:"Object Oriented Programming (OOP)"
+                name:"Object Oriented Programming (OOP)",
+                topics:[
+                  {
+                    head:"Object-Oriented Programming (OOP):",
+                    lessons:[
+                      {
+                        lists:"Introduction to OOP concepts (classes and objects)."
+                      },
+                      {
+                        lists:"Methods, attributes, and encapsulation."
+                      },
+                      {
+                        lists:"Inheritance, polymorphism, and method overriding."
+                      },
+                      
+                    ]
+                  },
+                ]
 
             },
             {
-                name:"Advanced Python syntax"
+                name:"Advanced Python syntax",
+                topics:[
+                  {
+                    head:"Final Projects and Advanced Topics:",
+                    lessons:[
+                      {
+                        lists:"Group project or individual project using Python."
+                      },
+                      {
+                        lists:"Advanced topics (e.g., web scraping, APIs, databases)."
+                      },  
+                    ]
+                  },
+                ]
 
             }
         ],

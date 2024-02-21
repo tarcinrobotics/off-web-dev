@@ -35,7 +35,7 @@
   animation: scroll 20s linear infinite;
 }
 
-.slide {
+.utube-slider .utubeslide-track .slide {
   height: 200px;
   width: 350px;
   display: flex;
@@ -48,12 +48,14 @@
   animation-play-state: paused;
 }
 
-.slide {
+ 
+.utube-slider .utubeslide-track .slide {
   width: 100%;
   transition: 0.5s;
 }
 
-.slide :hover {
+ 
+.utube-slider .utubeslide-track .slide :hover {
   transform: translateZ(5px);
 }
 
@@ -87,7 +89,8 @@
     height: 450px;
   }
 
-  .slide {
+   
+.utube-slider .utubeslide-track .slide {
     height: 200px;
     width: 350px;
     display: flex;
@@ -112,7 +115,8 @@
     height: 250px;
   }
 
-  .slide {
+  
+.utube-slider .utubeslide-track .slide {
     height: 250px;
     width: 350px;
     display: flex;

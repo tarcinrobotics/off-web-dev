@@ -9,7 +9,7 @@ export default function Intro() {
     
       <div className="icontent" data-aos="fade-up">
       <h2>TARCIN ROBOTIC, As a leading force in robotics, academy, and big data, we are
-dedicated to shaping the future by empowering individuals and organizations with cutting-
+dedicated in shaping the future by empowering individuals and organizations with cutting-
 edge technologies.</h2>
      <p>Do you want to step in to the future before others. Let's Build Something
 amazing with Tarcin.</p>

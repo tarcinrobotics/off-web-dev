@@ -4,6 +4,32 @@
 .productss h1{
     color: #002aff;
 }
+.inner-content{
+    
+    display: flex;
+    
+    gap: 50px;
+    padding: 1rem;
+  
+
+}
+.product-content{
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content:space-between; */
+    width:100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.productss{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 @media(max-width:1000px){
     .productss{
         padding: 4rem;

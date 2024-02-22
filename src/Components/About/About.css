@@ -76,6 +76,7 @@
 .wel{
     padding: 4rem 7rem;
     display: flex;
+    gap: 30px;
 }
 .wel  .para{
     padding: 2rem 1px 1px 1px;
@@ -102,15 +103,16 @@
     font-weight: 700;
 }
 .wel .wimage img{
-    width: 350px;
+    width: 550px;
 }
 @media(max-width:1000px){
     .wel {
             
             flex-direction: column-reverse;
+            justify-content: center;
         }
                 .wel .wimage img {
-                    width: 90%
+                    width: 100%
                 }
 .wel .para {
     padding:1rem;
@@ -119,7 +121,7 @@
 }
 @media(max-width:800px){
     .wel {
-            padding: 4rem 6rem;
+            padding: 4rem;
             
         }
 }

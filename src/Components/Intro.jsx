@@ -1,13 +1,13 @@
 import React from 'react';
 import "./Intro.css"
-import tarcin from "../images/TarcinGif.gif"
+import tarcin from "../images/courses.jpeg"
 import { Link } from 'react-router-dom';
 export default function Intro() {
   return (
-    <div className=" intro"  >
+    <div className=" intro" data-aos="fade-up" >
       
     
-      <div className="icontent" data-aos="fade-up">
+      <div className="icontent" >
       <h2>TARCIN ROBOTIC, As a leading force in robotics, academy, and big data, we are
 dedicated in shaping the future by empowering individuals and organizations with cutting-
 edge technologies.</h2>

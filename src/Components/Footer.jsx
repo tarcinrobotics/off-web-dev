@@ -2,8 +2,8 @@ import React from 'react';
 import "./Footer.css";
 import "../index.css"
 import { Link } from 'react-router-dom';
-import { FaTwitter, FaInstagramSquare, FaLinkedin, FaFacebook, FaPhoneAlt } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaInstagramSquare, FaLinkedin , FaPhoneAlt,FaFacebookSquare } from "react-icons/fa";
+import { FaSquareXTwitter,FaSquareYoutube } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io5";
 import footer from "../images/Footer.png"
 import { IoMail } from "react-icons/io5";
@@ -19,14 +19,14 @@ export default function Footer() {
           <a style={{ textDecoration: 'none' }}> <FaSquareXTwitter  color='#010101' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
           <a href='https://www.instagram.com/tarcin_robotic.in?igsh=MW9mZGQydmUyeHQ1dA==' style={{ textDecoration: 'none' }}> <FaInstagramSquare color='#fb0364' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
           <a href='https://www.linkedin.com/company/tarcin-robotic-llp/' style={{ textDecoration: 'none' }}> <FaLinkedin color='#3273af' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
-          <a style={{ textDecoration: 'none' }}> <FaFacebook color='#3976ea' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
-          <a href='https://www.youtube.com/@TarcinRobotic' style={{ textDecoration: 'none' }}> <IoLogoYoutube color='#FF0000' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a><br />
+          <a style={{ textDecoration: 'none' }}> <FaFacebookSquare color='#3976ea' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
+          <a href='https://www.youtube.com/@TarcinRobotic' style={{ textDecoration: 'none' }}> <FaSquareYoutube color='#FF0000' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a><br />
           <Link to="contact-us" ><button style={{color:"#fff"}}>Contact Us</button></Link>
         </div >
         <div className='cont cont2' >
           <a href='https://www.google.com/maps/place/176,+E+6th+St,+KK+Nagar,+Madurai,+Tamil+Nadu+625020,+India/@9.935677,78.146177,15z/data=!4m6!3m5!1s0x3b00c5b7e1747461:0x6783d013b50f7c59!8m2!3d9.9356774!4d78.146177!16s%2Fg%2F11ggmp3ypn?hl=en-US&entry=ttu' style={{ color: "black",textDecoration:"none" }}>
           <h3>Address</h3>
-          <p>Tarcin Robotics LLP,</p>
+          <p>Tarcin Robotic LLP,</p>
           <p>176 East, 6th Street,</p>
           <p> KK-Nagar,</p>
           <p> Madurai-625020.</p>

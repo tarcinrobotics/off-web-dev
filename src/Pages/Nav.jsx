@@ -20,7 +20,7 @@ export default function Nav() {
         </ul>
         </div>
         <div className='logo'><img src={logo}/></div>
-      <div className='navbtn'>
+      <div className='navbtn'  style={{cursor:"pointer"}}>
         <div onClick={() => setToggle(prev => !prev)}>     
           {toggle ?  <h4>Close</h4>:<h4>Menu</h4> }
         </div>

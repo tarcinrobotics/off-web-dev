@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
+button{
+  cursor: pointer;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 2px;

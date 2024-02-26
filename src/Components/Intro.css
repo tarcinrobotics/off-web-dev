@@ -1,10 +1,19 @@
 .intro{
-    padding: 6rem 6.5rem;
+    background-image: url(../images/courses.jpeg);
+    padding: 2rem 6rem 7rem;
     display: flex;
     gap: 30px;
+    justify-content: end;
+    align-items: end;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: cover;
+    min-height: 100vh;
 }
 .icontent{
     padding: 2rem;
+    background-color: #ccccff;
+    opacity: 0.7;
 }
 .icontent h2,.icontent p{
     text-align: justify;
@@ -46,6 +55,7 @@
 
 .iimg{
     width: 2000px;
+    display: none;
 }
 .iimg img{
     width: 100%;
@@ -53,7 +63,7 @@
 }
 @media(max-width:1030px){
     .icontent{
-        padding: 0;
+        padding: 1rem;
     }
     .icontent p{
        display: none;
@@ -62,7 +72,6 @@
 }
 @media(max-width:1000px){
     .intro{
-        flex-direction: column;
         padding: 2rem 4rem;
     }
     .iimg{
@@ -72,12 +81,28 @@
         display:block;
     }
 }
-@media(max-width:600px){
+@media(max-width:770px){
     .intro{
-        padding: 2rem ;
+        padding: 2rem;
+        background-image: none;
+        /* justify-content: center;
+        align-items: center; */
+        flex-direction: column-reverse;
+    }
+    .icontent{
+        padding: none;
+        background-color:transparent;
+        opacity: 1;
+    }
+    .iimg{
+        display: flex;
     }
 }
 @media(max-width:400px){
+    .icontent h2,.icontent p{
+        text-align: justify;
+        font-size: 22px;
+    }
     .intro{
         padding: 1.5rem ;
     }

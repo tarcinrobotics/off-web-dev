@@ -3,6 +3,13 @@ import React from 'react';
 import logo from "../images/Logo_T.png"
 import "./Hiring.css";
 export default function Hiring() {
+  let [data,setData]=React.useState({
+    First_Name:"",
+    Last_Name:"",
+    contact_Number:"",
+    user_Email:"",
+    Experiences:""
+  })
   const form = React.useRef();
 
   const sendEmail = (e) => {
@@ -27,13 +34,13 @@ export default function Hiring() {
           <div className="left">
 
             <div className="inpc">
-              <input name='First_Name' type='text' placeholder='First Name' required />
+              <input name='First_Name' value={data.First_Name} type='text' placeholder='First Name' required />
             </div>
             <div className="inpc">
-              <input name='Last_Name' type='text' placeholder='Last Name' required />
+              <input name='Last_Name' value={data.Last_Name}  type='text' placeholder='Last Name' required />
             </div>
             <div className="inpc">
-              <input type='text' name='contact_Number' placeholder='Contact Number' />
+              <input type='text'  value={data.contact_Number}  name='contact_Number' placeholder='Contact Number' />
             </div>
             <div className="select">
               <select name='gender'>
@@ -48,7 +55,7 @@ export default function Hiring() {
           <div className="right">
            
             <div className="inpc">
-              <input type='email' required name='user_Email' placeholder='Email'  />
+              <input type='email'  value={data.user_Email}  required name='user_Email' placeholder='Email'  />
             </div>
             {/* <div className="inpc">
               <input type='text' required name='college' placeholder='College Name' />
@@ -81,7 +88,7 @@ export default function Hiring() {
 </div>
         </div>
         <div className="text">
-        <textarea placeholder='Describe your Experience in words...' name='Experiences'></textarea>
+        <textarea placeholder='Describe your Experience in words...' name='Experiences' value={data.Experiences}></textarea>
         </div>
         <div className="button">
           <button type='submit' onClick={sendEmail}>Submit</button>

@@ -659,7 +659,18 @@ form .contbtn button {
   width: 200px;
 
 }
-
+form .msg{
+  display: flex;
+  flex-direction: column;
+}
+form .msg .error{
+  font-size: 12px;
+  display: flex;
+  justify-content: end;
+  padding:0px  20px;
+  color: red;
+  
+}
 form .inp {
   display: flex;
   align-items: center;
@@ -698,7 +709,11 @@ form .inp input {
     padding: 2rem 4rem;
     flex-direction: column;
   }
-
+  form .msg .error{
+    padding:0px  20px;
+    color: red;
+    justify-content: flex-start;
+  }
   .contact .contimg img {
     width: 50%;
   }
@@ -710,7 +725,7 @@ form .inp input {
 
   form .inp {
     flex-direction: column;
-    padding: 20px;
+    padding:10px 20px;
     gap: 10px;
     align-items: flex-start;
   }

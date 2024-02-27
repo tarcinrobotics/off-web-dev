@@ -58,9 +58,9 @@ export default function Code() {
                     </div>
                 </div>
                 <div className="code_btn">
-                    <button>
+                   
                         <a href="https://tarcinacademy.in/" >Let's Begin</a>
-                    </button>
+                    
                 </div>
                 <div className="sprouted">
                     <div className="sprouted_img">

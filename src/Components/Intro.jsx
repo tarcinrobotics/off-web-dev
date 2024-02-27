@@ -14,8 +14,8 @@ edge technologies.</h2>
      <p>Do you want to step in to the future before others. Let's Build Something
 amazing with Tarcin.</p>
      <div className="btns">
-      <button className='product_btn'><a href='https://www.youtube.com/watch?v=fYK8m80OE_4'>WATCH THE VIDEO</a></button>
-      <button className='contact_btn' style={{borderColor: "#fff"}} > <Link to="contact-us" style={{color: "#fff"}} >CONTACT</Link></button>
+      <a href='https://www.youtube.com/watch?v=fYK8m80OE_4' className='product_btn'>WATCH THE VIDEO</a>
+      <Link to="contact-us" className='contact_btn'  style={{color: "#fff"}} >CONTACT</Link>
      </div>
      </div>
       <div className='iimg' data-aos="fade-up">

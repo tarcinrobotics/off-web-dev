@@ -165,6 +165,9 @@
 .recruit form .select select {
     width: 100%;
     padding: 10px;
+}
+.recruit form .select  {
+    
     margin-bottom: 15px;
 }
 
@@ -202,7 +205,7 @@ form .contbtn button {
 .inpf {
     position: relative;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 25px;
     width: fit-content;
   }
   
@@ -252,7 +255,13 @@ transition: 0.5s;
     background-color: #002aff;
     color: #fff;
   }
+.error{
+  font-size: 12px;
+  color: red;
+}
+select .error{
   
+}
 @media(max-width:900px){
     .recruit form .inputs {
         padding: 2rem;

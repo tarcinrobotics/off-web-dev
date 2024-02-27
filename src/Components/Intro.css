@@ -13,7 +13,7 @@
 .icontent{
     padding: 2rem;
     background-color: #ccccff;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 .icontent h2,.icontent p{
     text-align: justify;
@@ -21,7 +21,8 @@
 .icontent p{
     margin: 1rem auto;
 }
-.icontent .btns button{
+.icontent .btns a{
+    text-decoration: none;
     padding: 10px 30px;
     font-size: 1rem;
     outline: none;
@@ -96,6 +97,13 @@
     }
     .iimg{
         display: flex;
+    }
+}
+@media(max-width:470px) {
+
+    .btns{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 @media(max-width:400px){

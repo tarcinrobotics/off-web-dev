@@ -14,7 +14,7 @@ partner on the journey to success. Explore our programs, engage with our
 community, and embrace the future with confidence.</h3>
         </div>
         <div className="join_btn">
-        <button> <Link to="hiring" style={{ color: "#fff", textDecoration: "none" }}>Join our Team</Link></button>
+   <Link to="hiring" style={{ color: "#fff", textDecoration: "none" }}>Join our Team</Link>
         </div>
       
        </div>

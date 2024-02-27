@@ -25,7 +25,7 @@ Avoidance Car`} content={`Dive into the universe of Robotics and IoT with the Se
       <Product head={`Walking Together: Tarcin Robotic's
 Human Follower Car in Action`} content={`Envision a future where a small car becomes your helpful companion. Meet TarcinRobotic's Human Follower Car - a robotic ally. Imagine it effortlessly carrying your loads, assisting in shopping, and following you anywhere. Enter a dimension where the Human Follower Car reshapes convenience and enriches daily tasks through its advanced robotic capabilities.`}  img={"/assets/robots-gJ5TwlXa.png"} />
 
-<Product head={`He-Man`} content={`Dive into the cutting-edge world of robotics with our mind-blowing Human Robotic Head! 🤖 Explore the fusion of humanity and technology as we unravel the secrets behind this AI marvel. Join the conversation and witness the future today! `} img={"/assets/head-Oocsc3oC.png"} />
+{/* <Product head={`He-Man`} content={`Dive into the cutting-edge world of robotics with our mind-blowing Human Robotic Head! 🤖 Explore the fusion of humanity and technology as we unravel the secrets behind this AI marvel. Join the conversation and witness the future today! `} img={"/assets/head-Oocsc3oC.png"} /> */}
 
 
 

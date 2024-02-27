@@ -10,11 +10,9 @@ export default function Learn(props) {
   let dis = props.topics ? props.topics.map((item, index) => {
     return (
       <div key={index} className='dropdow'>
-        <h6>{item.head}</h6>
+      
         <ul>
-          {item.lessons.map((prev, innerindex) => (
-            <li key={innerindex}>{prev.lists}</li>
-          ))}
+        <li>{item.head}</li>
         </ul>
       </div>
     );

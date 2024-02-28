@@ -24,9 +24,9 @@ export default function Learn(props) {
       <FcOk />
       <li onClick={() => { setDisplay(prev => !prev) }}>{props.list}</li>
       </div>
-      <div className="dropdowns">
+      {/* <div className="dropdowns">
       {display ? dis : null}
-      </div>
+      </div> */}
       
     </div>
   );

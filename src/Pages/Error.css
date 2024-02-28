@@ -1,0 +1,17 @@
+.ErrorPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 100vh;
+}
+.ErrorPage a{
+    text-decoration: none;
+    display: block;
+    background-color: #002aff;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+
+}

@@ -37,8 +37,10 @@ export default function Nav() {
         </div>
         </div>
    
-      
+      <main>
       <Outlet />
+      </main>
+      
    <Footer/>
     </div>
   )

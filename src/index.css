@@ -671,6 +671,9 @@ form .msg .error{
   color: red;
   
 }
+main{
+  min-height: 100vh;
+}
 form .inp {
   display: flex;
   align-items: center;

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Nav from './Pages/Nav';
+import ErrorPage from './Pages/ErrorPage';
 import Courses from './Pages/Courses';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
@@ -30,7 +31,7 @@ export default function App() {
 
           <Route path='students_hub' element={<Students_corner />} />
           <Route path='contact-us'  element={<Contact />} />
-          
+          <Route path='*' element={<ErrorPage/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

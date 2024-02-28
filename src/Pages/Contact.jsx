@@ -27,7 +27,7 @@ export default function Contact() {
   let validation = yup.object({
     user_Name: yup.string().matches(/^[A-Za-z]+$/,"User Name cannot be Number").required("User Name is required"),
     phone_Number: yup.string().matches(/^\d{10}$/,"Phone Number Should be 10 numbers").required("PhoneNumber is required"),
-    user_Email: yup.string().required("Email is required").email("Invalid Email Format"),
+    user_Email: yup.string().matches((/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/),"Invalid Email Format").email("Invalid Email Format").required("Email is required"),
     message: yup.string().min(10,"Subject Should be mininum 10 characters").matches(/^[a-zA-Z ]*$/,"Subject cannot be Number or spaces").required("Subject is required"),
     questions: yup.string().min(10,"Question Should be mininum 10 characters").matches(/^[a-zA-Z ]*$/,"Question cannot be Number or spaces").required("Question is required")
 

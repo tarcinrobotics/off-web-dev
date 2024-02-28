@@ -31,7 +31,7 @@ export default function Hiring() {
     Last_Name: yup.string().matches(/^[A-Za-z]+$/,"Last Name cannot be Number").required("Last Name is required"),
     contact_Number: yup.string().matches(/^\d{10}$/,"Contact Number Should be in number").required("Contact Number is required"),
     user_Email: yup.string().email("Invalid Email Format").matches((/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/),"Invalid Email Format").required("Email is required"),
-    Experiences: yup.string().min(10,"Experiences Should be mininum 10 characters").matches(/^[A-Za-z ]+$/,"Experiences cannot be Number or spaces").required("Experiences is required"),
+    Experiences: yup.string().min(10,"Experiences Should be mininum 10 characters").matches(/^[A-Za-z0-9'", ]+$/,"Experiences cannot be Special characters").required("Experiences is required"),
     Experience: yup.string().required("Experience is required"),
     gender: yup.string().required("Gender is required"),
     type: yup.string().required("Type is required"),

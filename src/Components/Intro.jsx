@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 export default function Intro() {
   return (
     <div className=" intro" data-aos="fade-up" >
-      
-    
       <div className="icontent" >
       <h2>TARCIN ROBOTIC, As a leading force in robotics, academy, and big data, we are
 dedicated in shaping the future by empowering individuals and organizations with cutting-

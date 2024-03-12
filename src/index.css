@@ -1,13 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Outfit", sans-serif;
+  /* font-family: "Alegreya", serif; */
+  /* font-family: "Libre Caslon Display", serif; */
+  /* font-family: "Noto sans Display", serif; */
+  font-family: "Afacad", sans-serif;
 }
 button{
   cursor: pointer;
+  
 }
 /* width */
 ::-webkit-scrollbar {
@@ -80,7 +88,7 @@ p {
   align-items: center;
 }
 .nav .logo h1{
-  color: #005aff;
+  color: #003fb2;
 }
 /* .nav .logo h1:hover{
   color: #ecce10;
@@ -95,7 +103,7 @@ p {
 }
 
 .navbars ul li .act {
-  color: #005aff;
+  color: #003fb2;
 }
 
 .navbars ul li a {
@@ -105,7 +113,7 @@ p {
 }
 
 .navbars ul li a:hover {
-  color: #005aff;
+  color: #003fb2;
 }
 
 .navbtn {
@@ -113,7 +121,7 @@ p {
   background-color: transparent;
 }
 .navbtn h4{
-  color: #005aff;
+  color: #003fb2;
 }
 .navbtn ul li {
   list-style-type: none;
@@ -121,7 +129,7 @@ p {
 }
 
 .navbtn ul li .act {
-  color: #005aff;
+  color: #003fb2;
 }
 
 .navbtn ul li a {
@@ -132,7 +140,7 @@ p {
 }
 
 .navbtn ul li a:hover {
-  color: #005aff;
+  color: #003fb2;
 }
 
 .navbtn {
@@ -477,7 +485,7 @@ p {
 
 .landcontant h2 {
   font-size: 2.8rem;
-  color: #002aff;
+  color: #003fb2;
   margin: 1rem auto;
   word-spacing: 0.3rem;
   font-weight: bolder;

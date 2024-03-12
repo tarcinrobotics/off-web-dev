@@ -32,7 +32,7 @@ export default function Code() {
         // </div>
         <div className="learning">
             <div className="learning_plaform">
-                <h1 style={{ color: "#002aff" }}>Learning Platform</h1>
+                <h1 style={{ color: "#003fb2" }}>Learning Platform</h1>
                 <hr />
 
                 <div className="code_asthram">

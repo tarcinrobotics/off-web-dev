@@ -14,7 +14,7 @@
     width: 50%;
 }
 .aland .acontent h2{
-    color: #002aff;
+    color: #003fb2;
     font-size: 2rem;
     margin-bottom: 1rem auto;
        
@@ -84,7 +84,7 @@
 }
 .wel  .para h1{
   font-size: 24px;
-  color: #002aff;
+  color: #003fb2;
   margin: 1rem auto;
 }
 .wel .para p{
@@ -139,7 +139,7 @@
     padding: 4rem 8rem;
 }
 .indpartners h1{
-    color: #002aff;
+    color: #003fb2;
     font-style: italic;
     text-align: center;
     margin-bottom: 2rem;
@@ -256,7 +256,7 @@ justify-content: space-around;
 }
 .inspartners h1{
     font-size: 2.5rem;
-    color: #002aff;
+    color: #003fb2;
     
 }
 .inspartners h6{
@@ -276,7 +276,7 @@ justify-content: space-around;
 
 .slide-track {
     display: flex;
-    width: calc(150px * 22);
+    width: calc(100px * 18);
     animation: scroll 20s linear infinite;
 }
 
@@ -289,6 +289,9 @@ justify-content: space-around;
     perspective: 100px;
 }
 .slide-track:hover {
+    animation-play-state: paused;
+}
+.slide-track:focus {
     animation-play-state: paused;
 }
 
@@ -306,7 +309,7 @@ justify-content: space-around;
     }
     
     100% {
-    transform: translateX(calc(-100px * 12));
+    transform: translateX(calc(-250px * 22));
     }
 }
 @media(max-width:1000px) {

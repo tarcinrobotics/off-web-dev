@@ -103,17 +103,17 @@
 .learning_plaform hr{
   margin: 10px 1px;
   width: 300px;
-  color: #002aff;
+  color: #003fb2;
   
 }
 .learning_plaform .sprouted h1{
-  color: #002aff;
+  color: #003fb2;
   margin: 10px auto;
 
 }
 .learning_plaform .code_asthram h1{
  
-  color: #002aff;
+  color: #003fb2;
   margin: 10px auto;
 }
 .code_asthram,.sprouted{
@@ -217,7 +217,7 @@
   width: 10%;
 }
 .code_btn a{
-  background-color: #002aff;
+  background-color: #003fb2;
   margin: 1rem auto;
   font-weight: 600;
   font-size: 1rem;

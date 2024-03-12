@@ -13,7 +13,7 @@ export default function Products() {
     
     <div className='productss'>
   
-       <h1 className='heading' style={{margin:"1rem auto",color:"#002aff"}}>PRODUCTS</h1>
+       <h1 className='heading' style={{margin:"1rem auto",color:"#003fb2"}}>PRODUCTS</h1>
        <div className="pod">
       <Product head={`Nature-Inspired Agility: Tarcin's Quadruped Spyder`} content={`ASay hello to Tarcin Robotic LLP's Quadruped Spyder - a clever robot inspired by spiders. This cool robot moves super well, just like a spider, and it can go on all kinds of surfaces, it adapts to different situations, getting better at handling obstacles and tricky terrain. With smart legs, fancy sensors, and the ability to move by itself,the Quadruped Spyder is like a robotic superhero in the world of walking robots!`}  img={"/assets/Spyder-tmFhuqWi.png"} />
 

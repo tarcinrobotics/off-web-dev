@@ -9,7 +9,7 @@ import "./About.css"
 export default function Getin() {
   return (
     <div className='get'>
-      <h1 style={{color:"#002aff"}}>Get In Touch with US</h1>
+      <h1 style={{color:"#003fb2"}}>Get In Touch with US</h1>
   
       <div className="getcont">
         <div className="gcont">
